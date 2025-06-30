@@ -132,3 +132,8 @@ You’ll need MySQL installed and running locally.
 - Writing reusable, insightful SQL queries
 
 ---
+
+![SQL](https://img.shields.io/badge/Built_with-SQL-blue)
+![CS50](https://img.shields.io/badge/CS50-Project-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
