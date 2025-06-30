@@ -134,6 +134,6 @@ You’ll need MySQL installed and running locally.
 ---
 
 ![SQL](https://img.shields.io/badge/Built_with-SQL-blue)
-![CS50](https://img.shields.io/badge/CS50-Project-red)
+![CS50](https://img.shields.io/badge/CS50SQL-Project-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
