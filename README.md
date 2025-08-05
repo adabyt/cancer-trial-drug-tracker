@@ -1,4 +1,4 @@
-# 🧬 Cancer Trial Drug Tracker
+# Cancer Trial Drug Tracker
 
 A relational MySQL database designed to track cancer drug trials across multiple cancer types — enabling researchers, clinicians, and data analysts to quickly answer questions such as:
 
@@ -7,11 +7,11 @@ A relational MySQL database designed to track cancer drug trials across multiple
 - How many patients achieved complete response?
 - Which drugs were associated with those responses?
 
-> 🏁 Final project for Harvard’s [CS50's Introduction to Databases with SQL](https://cs50.harvard.edu/sql).
+> Final project for Harvard’s [CS50's Introduction to Databases with SQL](https://cs50.harvard.edu/sql).
 
 ---
 
-## 📂 Project Files
+## Project Files
 
   ```
   cancer-trial-drug-tracker/
@@ -23,7 +23,7 @@ A relational MySQL database designed to track cancer drug trials across multiple
 
 ---
 
-## 🗃️ Schema Overview
+## Schema Overview
 
 The database includes the following key entities:
 
@@ -39,7 +39,7 @@ The database includes the following key entities:
 
 ---
 
-## 🔗 Relationships
+## Relationships
 
 ![ER Diagram](diagram.png)
 
@@ -51,7 +51,7 @@ The database includes the following key entities:
 
 ---
 
-## 🧪 Sample Queries
+## Sample Queries
 
 ```
 -- Trials using the drug 'Nivolumab'
@@ -75,7 +75,7 @@ More queries can be found in queries.sql.
 
 ---
 
-## ✅ Functional Highlights
+## Functional Highlights
 - Query which trials use specific drugs
 - Retrieve all cancer types targeted by a given trial
 - List patients and outcomes by clinical trial
@@ -84,7 +84,7 @@ More queries can be found in queries.sql.
 
 ---
 
-## 📊 Index Optimizations
+## Index Optimizations
 
 To speed up frequent join operations, the following indexes were created:
 
@@ -98,7 +98,7 @@ CREATE INDEX search_all_cancers_for_a_patient ON patient_cancers(cancer_id);
 
 ---
 
-## 🚧 Limitations & Future Directions
+## Limitations & Future Directions
 - No support for clinical site or sponsorship tracking
 - No adverse event or dosage data
 - Omits genomic or biomarker-level details
@@ -109,7 +109,7 @@ CREATE INDEX search_all_cancers_for_a_patient ON patient_cancers(cancer_id);
 
 ---
 
-## 🛠️ How to Use
+## How to Use
 
 1.	Import schema:
 ```bash
@@ -125,7 +125,7 @@ You’ll need MySQL installed and running locally.
 
 ---
 
-## 📌 What I Learned
+## What I Learned
 - Database schema design for real-world biomedical data
 - Modeling complex many-to-many relationships
 - Query optimization and indexing
